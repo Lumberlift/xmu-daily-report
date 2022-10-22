@@ -6,15 +6,15 @@ from utils import fail
 
 class Config:
     def __init__(self):
-        self.username = ''
-        self.password = ''
-        self.password_vpn = ''
-        self.email = ''
-        self.district = ''
-        self.inschool = ''
-        self.campus = ''
-        self.building = ''
-        self.room = ''
+        self.username = '33620211153775'
+        self.password = 'gege602255925!!!'
+        self.password_vpn = 'gege602255925!!!'
+        self.email = '602255925@qq.com'
+        self.district = '思明区'
+        self.inschool = '在校'
+        self.campus = '思明校区'
+        self.building = '思明海韵16'
+        self.room = '0307'
 
 
 def make_configs(json_str: str) -> List[Config]:
